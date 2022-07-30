@@ -1,5 +1,6 @@
 import {Link} from "react-router-dom";
 
+
 export default function Extras() {
   return (
     <div>
@@ -31,7 +32,7 @@ export default function Extras() {
                             <Link to="#" className="btn btn-primary">Go somewhere</Link>
                         </div>
                     </div>
-                    <div className="card" style="width: 18rem;">
+                    <div className="card" >
                         <img src="./media/CORDON_BLUE.png" className="card-img-top" alt="..." width="100"/>
                         <div className="card-body">
                             <h5 className="card-title">Cordon Blue</h5>
@@ -39,7 +40,7 @@ export default function Extras() {
                             <Link to="#" className="btn btn-primary">Go somewhere</Link>
                         </div>
                     </div>
-                    <div className="card" style="width: 18rem;">
+                    <div className="card">
                         <img src="./media/salchipapa con huevo frito.png" className="card-img-top" alt="..." width="100"/>
                         <div className="card-body">
                             <h5 className="card-title">Salchichapa Especial</h5>
@@ -47,7 +48,7 @@ export default function Extras() {
                             <Link to="#" className="btn btn-primary">Go somewhere</Link>
                         </div>
                     </div>
-                    <div className="card" style="width: 18rem;">
+                    <div className="card">
                         <img src="./media/lomo a lo pobre.png" className="card-img-top" alt="..."/>
                         <div className="card-body">
                             <h5 className="card-title">Lomo a lo Pobre</h5>
@@ -55,15 +56,15 @@ export default function Extras() {
                             <Link to="#" className="btn btn-primary">Go somewhere</Link>
                         </div>
                     </div>
-                    <div className="card" style="width: 18rem;">
-                        <img src="./media/chuleta a lo pobre.png" clclassNameass="card-img-top" alt="..."/>
+                    <div className="card">
+                        <img src="./media/chuleta a lo pobre.png" classNameass="card-img-top" alt="..."/>
                         <div className="card-body">
                             <h5 className="card-title">Chuleta a lo Pobre</h5>
                             <p className="card-text">Filete de Pollo con Jamon y Queso; con papas crocantes y ensaladas; .</p>
                             <Link to="#" className="btn btn-primary">Go somewhere</Link>
                         </div>
                     </div>
-                    <div className="card" style="width: 18rem;">
+                    <div className="card">
                         <img src="./media/ceviche_pescado.png" className="card-img-top" alt="..."/>
                         <div className="card-body">
                             <h5 className="card-title">Ceviche de Pescado</h5>

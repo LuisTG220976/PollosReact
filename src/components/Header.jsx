@@ -7,8 +7,8 @@ import logo from "../assets/Kikiri.png"
 export default function Header() {
   return (
     <header id="main-header">
-        <div class="container_header">
-            <div class="logo">
+        <div className="container_header">
+            <div className="logo">
                 <img src={logo} alt=""/>
             </div>
             <div class="menu">
@@ -22,9 +22,9 @@ export default function Header() {
                     </ul>
                 </nav>
             </div>
-            <i class="fa-solid fa-bars" id="icon_menu"></i>
-            <div class="header__register">
-                <button class="btn btn-dark btn-lg" data-bs-toggle="modal" data-bs-target="#modalRegistrarse">Registrarse</button>
+            <i className="fa-solid fa-bars" id="icon_menu"></i>
+            <div className="header__register">
+                <button className="btn btn-dark btn-lg" data-bs-toggle="modal" data-bs-target="#modalRegistrarse">Registrarse</button>
             </div>    
         </div>
         </header>

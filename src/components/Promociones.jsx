@@ -9,8 +9,8 @@ import logo6 from "../assets/precio6.jpg";
 export default function Promociones() {
   return (
     <div>
-        <section class="promociones" id="promos">               
-               <div class="contenedor">
+        <section className="promociones" id="promos">               
+               <div className="contenedor">
                    <h2>PROMOCIONES</h2>
                    <img src={logo1} alt="" class="img-promos"/>
                    <img src={logo2} alt="" class="img-promos"/>

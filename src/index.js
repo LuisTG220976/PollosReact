@@ -17,8 +17,7 @@ root.render(
     <Header/>
     <Video/>
     <Slider/>
-    <Promociones/>
-    
+    <Promociones/>    
     <Footer/>
   </React.StrictMode>
 );
