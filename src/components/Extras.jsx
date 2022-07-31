@@ -1,4 +1,5 @@
 import {Link} from "react-router-dom";
+import logoe1 from "../assets/pollo con jamon y queso2.png";
 
 
 export default function Extras() {
@@ -9,7 +10,7 @@ export default function Extras() {
                     <h2>PLATOS EXTRAS</h2>
                 <div className="container_card">
                     <div className="card">
-                        <img src="./media/pollo con jamon y queso2.png" className="card-img-top" alt="..."/>
+                        <img src={logoe1} className="card-img-top" alt="..."/>
                         <div className="card-body">
                             <h5 className="card-title">Filete de Pollo con Jamon y Queso</h5>
                             <p className="card-text">Filete de Pollo con Jamon y Queso; con papas crocantes y ensaladas; .</p>
